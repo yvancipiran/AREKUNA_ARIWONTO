@@ -1,0 +1,25 @@
+/**
+ * Arekuna (Norte y Centro - Pemón)
+ * Facíl y simple, este desarrollo toma los registros de una BD Postgresql
+ * y los muestra en formato HTML a través de fichero PHP con el uso del plugin
+ * Datatables.
+ *
+ * Los archivos de encabezados y footers, inclusive los SRC de los CSS y JS
+ * se encuentra ubicados en archivos únicos de configuración que permiten aplicar
+ * cambios reales a todos los fichero web que se esten utilizando, de igual forma
+ * las tablas son tratados como objetos separados ubicados en un directorio especifico
+ * Para usar este software solamente usted debe copiar del template a plantilla.php
+ * pergarlo en su nueva pagina, y cambiar los encabezados de la tabla por el que 
+ * se correspondan a los campos en su base de datos (debe modificar conexion.php)l
+ * luego copiar el archivo de la tabla y poner los campos de su tabla destino
+ * cambiar el valor del SQL de consulta, colocar el nombre de los campos, llamar 
+ * el fichero en el archivo template modificado y listo!!.
+
+ *  @name DTC
+ *  @summary Consolidad listas de BD POstgresql, las muestra como tabla html, y las exporta.
+ *  @author [Yván Cipirán](yvancipiran@yandex.com)
+ *  @requires DataTables 1.10+Bootstrap+Jquery+PDO-PGSQL+FontAwesome
+ *
+ *  @returns {PHP} Tablas HTML tratadas  en ficheros PHP con listados parametrizados con DOM Datatables
+ *
+ */
